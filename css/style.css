@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: yekan bakh !important;
+}
+.right-side {
+	background-color:#7f53ac;
+	background-image: linear-gradient(315deg, #6959d1 0%, #7564e0 75%);
+	border-radius: 0px 35px 35px 0px !important;
+	overflow: hidden;
+}
+
+.right-side button {
+	color: white !important;
+	font-family: yekan bakh;
+	font-size: 28px;
+	font-weight: 200;
+	text-decoration: none !important;
+}
+
+.list-group li {
+	background: none !important;
+	cursor: pointer !important;
+	transition: all 0.3s ease;
+}
+.list-group li:hover {
+	background: white !important;
+	cursor: pointer !important;
+}
+
+.list-group li a {
+	color: white !important;
+	text-decoration: none !important;
+	font-family: yekan bakh;
+	font-size: 21px;
+}
+
+.list-group li:hover a {
+	color: #6f42c1 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
