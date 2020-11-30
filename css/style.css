@@ -62,3 +62,16 @@
 	opacity: 0.8 !important;
 	font-weight: 400 !important;
 }
+.charts h5{
+	color: #919191 !important;
+}
+.last-sale-btn li a{
+	border-radius: 15px !important;
+	transition: all ease 0.3s !important;
+	border: none !important;
+}
+.last-sale-btn li a:hover{
+	background-color: #6f42c1 !important;
+	color: #fff !important;
+	box-shadow: 0 0.5rem 1rem rgba(111, 66, 193, 0.3) !important;
+}
