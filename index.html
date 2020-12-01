@@ -28,13 +28,14 @@
                             <div class="card-body d-flex flex-column justify-content-between px-0">
                                 <ul class="list-group">
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#home" class="active" data-toggle="tab"> <i
-                                                class="fa fa-home ml-3 align-middle" style="font-size: 18px;"></i> خانه
+                                        <a href="#home" data-toggle="tab"> <i class="fa fa-home ml-3 align-middle"
+                                                style="font-size: 18px;"></i> خانه
                                         </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#tarakonesh" data-toggle="tab"> <i class="fa fa-list ml-3 align-middle"
-                                                style="font-size: 18px;"></i> تراکنش </a>
+                                        <a href="#tarakonesh" class="active" data-toggle="tab"> <i
+                                                class="fa fa-list ml-3 align-middle" style="font-size: 18px;"></i>
+                                            تراکنش </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
                                         <a href="#getter-code" data-toggle="tab"> <i
@@ -116,7 +117,7 @@
                     </div>
                 </div>
                 <div class="tab-content">
-                    <div class="tab-pane fade show active mb-3" id="home">
+                    <div class="tab-pane fade show mb-3" id="home">
                         <div class="alert my-4 custom-alert">
                             <p class="mb-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
                                 طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
@@ -706,6 +707,78 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade active show" id="tarakonesh">
+                        <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px !important;">
+                            <div class="card-header border-0 bg-transparent text-center tarakonesh-head">
+                                <h5>جستجو</h5>
+                            </div>
+                            <div class="card-body tarakonesh-body pb-0">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>کارت مبدا :</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>کارت مقصد :</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>فاکتور</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>شناسه بانکی :</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <a href="#" class="btn btn-light btn-block py-2">
+                                                <i class="fa fa-times align-middle ml-2 text-danger"
+                                                    style="font-size: 19px !important;"></i> تراکنش ناموفق
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <a href="#" class="btn btn-light btn-block py-2">
+                                                <i class="fa fa-check align-middle ml-2 text-success"
+                                                    style="font-size: 19px !important;"></i> تراکنش موفق
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="text-center mt-5 search-btn">
+                                    <a href="#" class="btn py-2 shadow-sm border-0">جستجو</a>
                                 </div>
                             </div>
                         </div>
