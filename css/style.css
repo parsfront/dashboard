@@ -79,8 +79,68 @@
 	color: #fff !important;
 	box-shadow: 0 0.5rem 1rem rgba(111, 66, 193, 0.3) !important;
 }
-.tarakonesh-head h5{
+
+.tarakonesh-head h5 {
 	color: #919191 !important;
 	font-size: 24px !important;
 	font-weight: 300 !important;
+}
+
+.tarakonesh-body .row:nth-child(1) input {
+	border: 1px solid #e9e9e9 !important;
+}
+
+.tarakonesh-body .row:nth-child(1) .input-group-text {
+	border: 1px solid #e9e9e9 !important;
+	font-weight: lighter !important;
+}
+
+.tarakonesh-body .row:nth-child(2) input {
+	border: 1px solid #e9e9e9 !important;
+}
+
+.tarakonesh-body .row:nth-child(2) .input-group-text {
+	border: 1px solid #e9e9e9 !important;
+	font-weight: lighter !important;
+}
+
+.tarakonesh-body .row:nth-child(3) a {
+	font-weight: 300 !important;
+	font-size: 16px !important;
+	transition: all ease 0.3s !important;
+}
+
+.tarakonesh-body .row:nth-child(3) a:hover {
+	border: 1px solid #6f42c1 !important;
+	background: #fff !important;
+	color: #6f42c1 !important;
+}
+
+.tarakonesh-body .row:nth-child(3) .form-group:first-child a:focus {
+	border: 1px solid red !important;
+	background: #fff !important;
+	color: red !important;
+}
+
+.tarakonesh-body .row:nth-child(3) .form-group:last-child a:focus {
+	border: 1px solid green !important;
+	background: #fff !important;
+	color: green !important;
+}
+
+.search-btn a {
+	background: #ffee00 !important;
+	background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 75%) !important;
+	border-radius: 15px 15px 0px 0px !important;
+	width: 35% !important;
+	font-size: 21px !important;
+	font-weight: lighter !important;
+	padding: 13px 0px !important;
+	box-shadow: 0 0 20px rgba(255, 249, 87, 0.61) !important;
+	transition: all ease 0.3s !important;
+}
+
+.search-btn a:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+	color: #fff !important;
 }
