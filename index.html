@@ -64,8 +64,8 @@
                                             راهنما </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#plugin" class="active" data-toggle="tab"> <i
-                                                class="fas fa-adjust ml-3 align-middle" style="font-size: 18px;"></i>
+                                        <a href="#plugin" data-toggle="tab"> <i class="fas fa-adjust ml-3 align-middle"
+                                                style="font-size: 18px;"></i>
                                             پلاگین </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
@@ -74,7 +74,7 @@
                                                 style="font-size: 18px;"></i> احراز هویت </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#helper" data-toggle="tab"> <i
+                                        <a href="#helper" class="active" data-toggle="tab"> <i
                                                 class="fa fa-life-ring ml-3 align-middle" style="font-size: 18px;"></i>
                                             پشتیبانی </a>
                                     </li>
@@ -856,7 +856,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade active show mb-3" id="plugin">
+                    <div class="tab-pane fade show mb-3" id="plugin">
                         <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px !important;">
                             <div class="card-header border-0 bg-transparent text-center tarakonesh-head">
                                 <h5>پلاگین</h5>
@@ -899,7 +899,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane"></div>
+                    <div class="tab-pane active fade show mb-3" id="helper">
+                        <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px !important;">
+                            <div class="card-header border-0 bg-transparent tarakonesh-head text-center">
+                                <h5>پشتیبانی</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 offset-lg-3">
+                                        <form class="helper">
+                                            <div class="form-group">
+                                                <label for="">عنوان تیکت :</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">اهمیت تیکت : (زیاد ، متوسط ، کم )</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">شماره سفارش :</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">شرح مشکل :</label>
+                                                <textarea name="" id="" cols="30" rows="10" class="d-block w-100"
+                                                    placeholder="شرح مشکل خود را به صورت کامل بنویسید"></textarea>
+                                            </div>
+                                            <div class="form-group d-flex justify-content-center mt-5">
+                                                <a href="#" class="btn px-4">ارسال</a>
+                                                <a href="#" class="btn mx-3 px-4">پاک کردن</a>
+                                                <a href="#" class="btn px-4">انصراف</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

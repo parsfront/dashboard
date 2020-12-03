@@ -153,3 +153,35 @@
 .plugin-box div {
 	border-radius: 20px;
 }
+
+.helper input {
+	font-weight: 300 !important;
+	border-radius: 20px !important;
+}
+
+.helper label {
+	font-weight: 300 !important;
+	border-radius: 20px !important;
+}
+
+.helper textarea {
+	border-radius: 20px !important;
+	padding: 10px !important;
+	border: 1px solid #cfcfcf !important;
+	outline: none !important;
+	resize: none !important;
+}
+
+.helper a {
+	background-color: #6f42c1 !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	border-radius: 15px !important;
+	transition: all ease 0.3s !important;
+}
+
+.helper a:hover {
+	background-color: #fff !important;
+	color: #6f42c1 !important;
+	border: 1px solid #6f42c1 !important;
+}
