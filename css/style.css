@@ -144,3 +144,12 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
 	color: #fff !important;
 }
+
+.plugin-box {
+	border-radius: 20px !important;
+	font-size: 16px !important;
+}
+
+.plugin-box div {
+	border-radius: 20px;
+}
