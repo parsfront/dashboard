@@ -16,6 +16,24 @@
 </head>
 
 <body>
+    <div class="modal fade" id="delete_card">
+        <div class="modal-dialog">
+            <div class="modal-content" style="border-radius: 25px !important;">
+                <div class="midal-header">
+                    <h5 class="p-3">پیام سیستم!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>آیا از حذف کارت خود اطمینان دارید ؟</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary ml-2 rounded-pill px-4">بله</button>
+                    <button type="button" class="btn btn-outline-primary ml-2 rounded-pill px-4" data-dismiss="modal">خیر</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-2">
@@ -53,14 +71,14 @@
                                                 style="font-size: 18px;"></i> کارمزد </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#tarakonesh" data-toggle="tab"> <i
+                                        <a href="#transfer" data-toggle="tab"> <i
                                                 class="fas fa-wave-square ml-3 align-middle"
                                                 style="font-size: 18px;"></i>
                                             انتقال وجه </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#tarakonesh" data-toggle="tab"> <i
-                                                class="fa fa-cubes ml-3 align-middle" style="font-size: 18px;"></i>
+                                        <a href="#hp" data-toggle="tab"> <i class="fa fa-cubes ml-3 align-middle"
+                                                style="font-size: 18px;"></i>
                                             راهنما </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
@@ -1047,11 +1065,116 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card mb-3 border-0"></div>
+                        <div class="card mt-3 border-0 shadow" style="border-radius: 35px 0px 0px 35px !important;">
+                            <div class="card-header border-0 bg-transparent text-center tarakonesh-head">
+                                <h5>کارت های ثبت شده</h5>
+                            </div>
+                            <div class="card-body tarakonesh-body card-bank2 pb-0">
+                                <div class="row justify-content-center">
+                                    <div class="form-group col-12 col-lg-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text bg-light px-4 rounded-pill border-0">
+                                                    <span>نمایش</span>
+                                                </div>
+                                            </div>
+                                            <select class="custom-select bg-light">
+                                                <option selected> کارت های غیرفعال </option>
+                                                <option> کارت های فعال </option>
+                                                <option> سایر </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card border-0 bg-light mb-5"
+                                    style="border-radius: 35px 0px 0px 35px !important;">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-8">
+                                                <div class="d-lg-flex justify-content-between">
+                                                    <div
+                                                        class="card border-0 rounded-pill bg-white flex-grow-1 ml-lg-2 mb-2 mb-lg-0">
+                                                        <div class="card-body text-center py-4">
+                                                            <p class="mb-0"> <span> نام : </span> &nbsp;
+                                                                <strong>AliBhdrn</strong> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card border-0 rounded-pill bg-white flex-grow-1">
+                                                        <div class="card-body text-center py-4">
+                                                            <p class="mb-0"> <span> نام بانک : </span> &nbsp; <strong>
+                                                                    تجارت </strong> </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-lg-flex justify-content-between mt-3">
+                                                    <div
+                                                        class="card border-0 rounded-pill bg-white flex-grow-1 ml-lg-2 mb-2 mb-lg-0">
+                                                        <div class="card-body text-center py-4">
+                                                            <p class="mb-0"> <span> شماره کارت : </span> &nbsp; <strong>
+                                                                    5859831152639641 </strong> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card border-0 rounded-pill bg-white flex-grow-1">
+                                                        <div class="card-body text-center py-4">
+                                                            <p class="mb-0"> <span> Api_Card_Id : </span> &nbsp;
+                                                                <strong> 1336_tej </strong> </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card border-0 rounded-pill bg-white flex-grow-1 my-3">
+                                                    <div class="card-body text-center py-4">
+                                                        <p class="mb-0"> <span> دکمه پرداخت : </span> &nbsp; <strong
+                                                                class="text-danger"> cvw]pcqhqueblnvrucqyhzqazuvjvrwbu
+                                                            </strong> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-4 border-lg-right left-card-bank">
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <p class="mb-0"> فعال </p>
+                                                    <div class="custom-control custom-switch custom-switch1 pl-4">
+                                                        <input type="checkbox" class="custom-control-input"
+                                                            id="custom-Switch1">
+                                                        <label class="custom-control-label"
+                                                            for="custom-Switch1"></label>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <p class="mb-0"> وضعیت کارت </p>
+                                                    <p class="mb-0 text-danger"> مسدود </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <p class="mb-0"> حذف کارت </p>
+                                                    <a href="#delete_card" data-toggle="modal">
+                                                        <i class="mb-0 text-muted fa fa-angle-left align-middle"
+                                                            style="font-size: 24px;"> </i>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <p class="mb-0"> نمایش موجودی کارت </p>
+                                                    <a href="#total_card" data-toggle="modal">
+                                                        <i class="mb-0 text-muted fa fa-angle-left align-middle"
+                                                            style="font-size: 24px;"> </i>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <p class="mb-0"> نمایش واریزی های کارت </p>
+                                                    <a href="#transfers_card" data-toggle="modal">
+                                                        <i class="mb-0 text-muted fa fa-angle-left align-middle"
+                                                            style="font-size: 24px;"> </i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 </body>

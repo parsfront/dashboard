@@ -185,3 +185,37 @@
 	color: #6f42c1 !important;
 	border: 1px solid #6f42c1 !important;
 }
+.custom-switch1{
+	direction: ltr !important;
+	padding: 2.2rem !important;
+}
+.custom-switch .custom-control-label::before{
+	width: 2.75rem !important;
+	height: 1.25rem !important;
+}
+.custom-switch .custom-control-label::after{
+	width: 16px !important;
+	height: 16px !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+	background-color: #20c997 !important;
+	border: 1px solid #20c997;
+	outline: none !important;
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after{
+	transform: translateX(1.5rem) !important;
+}
+.card-bank2 select{
+	border: none !important;
+	font-weight: 300 !important;
+	border-radius: 10px 0px 0px 10px !important;
+}
+.card-bank2 select option{
+	font-weight: 300 !important;
+}
+.card-bank2 .input-group-text{
+	border: none !important;
+}
+.left-card a{
+	color: #9e9e9e !important;
+}
