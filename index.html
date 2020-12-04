@@ -43,7 +43,7 @@
                                             پذیرنده </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#card-bank" data-toggle="tab"> <i
+                                        <a href="#card-bank" class="active" data-toggle="tab"> <i
                                                 class="fa fa-credit-card ml-3 align-middle"
                                                 style="font-size: 18px;"></i> کارت بانکی </a>
                                     </li>
@@ -74,7 +74,7 @@
                                                 style="font-size: 18px;"></i> احراز هویت </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#helper" class="active" data-toggle="tab"> <i
+                                        <a href="#helper" data-toggle="tab"> <i
                                                 class="fa fa-life-ring ml-3 align-middle" style="font-size: 18px;"></i>
                                             پشتیبانی </a>
                                     </li>
@@ -899,7 +899,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane active fade show mb-3" id="helper">
+                    <div class="tab-pane fade show mb-3" id="helper">
                         <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px !important;">
                             <div class="card-header border-0 bg-transparent tarakonesh-head text-center">
                                 <h5>پشتیبانی</h5>
@@ -935,6 +935,119 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="card-bank">
+                        <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px !important;">
+                            <div class="card-header border-0 bg-transparent text-center tarakonesh-head">
+                                <h5>ثبت کارت</h5>
+                            </div>
+                            <div class="card-body tarakonesh-body pb-0">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>نام بانک</span>
+                                                    </div>
+                                                </div>
+                                                <select class="custom-select">
+                                                    <option>
+                                                    <option selected> انتخاب کنید . . . . </option>
+                                                    <option> تجارت </option>
+                                                    <option> رفاه </option>
+                                                    <option> کشاورزی </option>
+                                                    <option> شهر </option>
+                                                    <option> آینده </option>
+                                                    <option> ملی </option>
+                                                    <option> ملت </option>
+                                                    <option> صادرات </option>
+                                                    <option> پاسارگاد </option>
+                                                    <option> انصار </option>
+                                                    <option> پارسیان </option>
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>نام کامل صاحب حساب</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>شماره کارت</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>شماره حساب</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>شماره شبا</span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>سرور درگاه شما</span>
+                                                    </div>
+                                                </div>
+                                                <select class="custom-select">
+                                                    <option selected> انتخاب کنید . . . </option>
+                                                    <option> درگاه آپ </option>
+                                                    <option> درگاه زرین پال </option>
+                                                    <option> درگاه پارس کارت </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span>کد دسترسی خصوصی : </span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="text-center mt-5 search-btn">
+                                    <a href="#" class="btn shadow-sm border-0">ثبت</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 border-0"></div>
                     </div>
                 </div>
             </div>
