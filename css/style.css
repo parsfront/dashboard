@@ -234,3 +234,38 @@
 	font-weight: 450 !important;
 	font-size: 16px !important;
 }
+
+.finger-gr input {
+	position: relative !important;
+	border-radius: 10px !important;
+	background-color: #f7f7f7 !important;
+	border: none !important;
+}
+
+.finger-gr input:focus {
+	z-index: 0 !important;
+	background-color: #f7f7f7 !important;
+}
+
+.finger-gr input:focus a {
+	z-index: 99 !important;
+}
+
+.finger-gr input::placeholder {
+	font-weight: 200 !important;
+}
+
+.finger-gr a {
+	bottom: 0 !important;
+	top: 0 !important;
+	left: 0 !important;
+	background-color: #6f42c1 !important;
+	border-radius: 10px !important;
+	color: #fff !important;
+	transition: all ease 0.3s !important;
+}
+
+.finger-gr a:hover {
+	color: #fff !important;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
