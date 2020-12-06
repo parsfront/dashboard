@@ -310,3 +310,18 @@
 	background-image: linear-gradient(315deg, #ffdd00 0%, #fbb034 75%);
 	border-radius: 10px !important;
 }
+
+.finger-gr4 a {
+	background: #fbb034 !important;
+	background-image: linear-gradient(315deg, #ffdd00 0%, #fbb034 75%) !important;
+}
+
+.finger-gr4 a i {
+	color: black !important;
+	opacity: 0.6;
+}
+
+.custom-control-input2:checked~.custom-control-label2::before {
+	background: #9f75c1 !important;
+	border: 1px solid #9f75c1 !important;
+}
