@@ -211,8 +211,8 @@
                             <div class="card-body d-flex flex-column justify-content-between px-0">
                                 <ul class="list-group">
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#home" data-toggle="tab"> <i class="fa fa-home ml-3 align-middle"
-                                                style="font-size: 18px;"></i> خانه
+                                        <a href="#home" class="active" data-toggle="tab"> <i
+                                                class="fa fa-home ml-3 align-middle" style="font-size: 18px;"></i> خانه
                                         </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
@@ -221,7 +221,7 @@
                                             تراکنش </a>
                                     </li>
                                     <li class="list-group-item border-0 py-2 rounded-0 mb-3 pr-4">
-                                        <a href="#getter-code" class="active" data-toggle="tab"> <i
+                                        <a href="#getter-code" data-toggle="tab"> <i
                                                 class="fa fa-qrcode ml-3 align-middle" style="font-size: 18px;"></i> کد
                                             پذیرنده </a>
                                     </li>
@@ -300,7 +300,7 @@
                     </div>
                 </div>
                 <div class="tab-content">
-                    <div class="tab-pane fade show mb-3" id="home">
+                    <div class="tab-pane active fade show mb-3" id="home">
                         <div class="alert my-4 custom-alert">
                             <p class="mb-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
                                 طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
@@ -1692,10 +1692,171 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane show fade active" id="getter-code"></div>
+                    <div class="tab-pane show fade m5-3" id="getter-code">
+                        <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px">
+                            <div class="card-header border-0 bg-transparent text-center tarakonesh-head">
+                                <h5> ثبت برای دریافت کد پذیرنده </h5>
+                            </div>
+                            <div class="card-body tarakonesh-body card-bank pb-0">
+                                <form>
+                                    <div class="row">
+                                        <div class="form-group col-12 col-lg-6">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span> آدرس سایت </span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-12 col-lg-6">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span> آی پی سایت </span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-12 col-lg-6">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span> عنوان سایت </span>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-12 col-lg-6">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-transparent px-4">
+                                                        <span> موضوع فعالیت سایت </span>
+                                                    </div>
+                                                </div>
+                                                <select class="custom-select">
+                                                    <option selected> انتخاب کنید . . . </option>
+                                                    <option> فروشگاهی </option>
+                                                    <option> خدماتی </option>
+                                                    <option> نرم افزار و بازی </option>
+                                                    <option> صنایع دستی </option>
+                                                    <option> آموزش آنلاین </option>
+                                                    <option> فروشگاه فرهنگی خاص </option>
+                                                    <option> بلاگ اعضای ویژه </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="text-center mt-5 search-btn">
+                                    <a href="#" class="btn py-2 shadow-sm border-0"> ثبت </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 shadow mt-3" style="border-radius: 35px 0px 0px 35px">
+                            <div class="card-body tarakonesh-body card-bank pb-0">
+                                <div class="card border-0 bg-light mb-3" style="border-radius: 15px !important;">
+                                    <div class="card-body d-lg-flex justify-content-between pb-2">
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px !important;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> آدرس سایت :
+                                                        <strong style="font-size: 17px;"> example.com </strong>
+                                                    </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> آی پی سایت :
+                                                        <strong style="font-size: 17px;"> 127.0.0.1 </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body d-lg-flex justify-content-between pb-2">
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> API_Token :
+                                                        &nbsp; &nbsp; <strong style="font-size: 17px;">
+                                                            pjrwninviwrhdipowqvbmnbmvbklbnnq </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0 flex-grow-2 px-5 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body py-3">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> وضعیت :
+                                                        <strong class="text-success" style="font-size: 17px;"> <i
+                                                                class="fa fa-check"></i> فعال </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card border-0 bg-light mb-3" style="border-radius: 15px !important;">
+                                    <div class="card-body d-lg-flex justify-content-between pb-2">
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px !important;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> آدرس سایت :
+                                                        <strong style="font-size: 17px;"> example.com </strong>
+                                                    </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> آی پی سایت :
+                                                        <strong style="font-size: 17px;"> 127.0.0.1 </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body d-lg-flex justify-content-between pb-2">
+                                        <div class="card border-0 flex-grow-1 ml-lg-2 mb-2 mb-lg-0 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> API_Token :
+                                                        &nbsp; &nbsp; <strong style="font-size: 17px;">
+                                                            pjrwninviwrhdipowqvbmnbmvbklbnnq </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0 flex-grow-2 px-5 text-center"
+                                            style="border-radius: 15px;">
+                                            <div class="card-body py-3">
+                                                <p class="mb-0">
+                                                    <small style="font-size: 17px;font-weight: lighter;"> وضعیت :
+                                                        <strong class="text-danger" style="font-size: 17px;"> <i
+                                                                class="fa fa-times"></i> غیر فعال </strong> </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
 
