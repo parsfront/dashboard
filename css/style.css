@@ -361,3 +361,47 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
 	color: #fff !important;
 }
+
+.head {
+	position: absolute !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 40% !important;
+	background: #6f42c1 !important;
+	border-radius: 0em 0em 5em 5em !important;
+}
+
+.moving label {
+	font-size: 14px !important;
+}
+
+.moving input {
+	border: none !important;
+	background-color: #f2f2f2 !important;
+	font-weight: 300 !important;
+	border-radius: 10px !important;
+}
+
+.moving input::placeholder {
+	font-size: 13px !important;
+	font-weight: 200 !important;
+}
+
+.moving .buttons a:nth-child(1) {
+	background: #ffee00 !important;
+	background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 75%) !important;
+	border-radius: 15px;
+	font-size: 21px;
+	font-weight: lighter;
+	padding: 5px 0px;
+	transition: all 0.4s ease;
+}
+
+.moving .buttons a:nth-child(1):hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+	color: #fff !important;
+}
+
+.moving .buttons a:nth-child(2) {
+	color: #6f42c1;
+}
