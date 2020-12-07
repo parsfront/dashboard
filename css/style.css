@@ -325,3 +325,39 @@
 	background: #9f75c1 !important;
 	border: 1px solid #9f75c1 !important;
 }
+
+.sign-up {
+	border-radius: 15px 15px 0px 0px !important;
+}
+
+.sign-up input {
+	border: 1px solid #e9e9e9 !important;
+	font-weight: 400 !important;
+	font-size: 14px !important;
+	padding: 23px !important;
+	border-radius: 15px !important;
+}
+
+.sign-up .input-group-text {
+	border: 1px solid #e9e9e9 !important;
+	font-size: 15px !important;
+	border-radius: 15px !important;
+	color: #9e9e9e !important;
+}
+
+.sign-up a {
+	background: #ffee00 !important;
+	background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 75%) !important;
+	border-radius: 25px !important;
+	width: 100% !important;
+	font-size: 21px !important;
+	font-weight: lighter !important;
+	padding: 5px 0px !important;
+	box-shadow: 0 0 20px rgba(255, 249, 87, 0.61) !important;
+	transition: all ease 0.3s !important;
+}
+
+.sign-up a:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+	color: #fff !important;
+}
